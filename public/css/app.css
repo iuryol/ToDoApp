@@ -439,12 +439,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .m-1 {
   margin: 0.25rem;
 }
-.m-2 {
-  margin: 0.5rem;
-}
-.m-5 {
-  margin: 1.25rem;
-}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -479,6 +473,27 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mb-5 {
   margin-bottom: 1.25rem;
 }
+.ml-6 {
+  margin-left: 1.5rem;
+}
+.ml-10 {
+  margin-left: 2.5rem;
+}
+.ml-24 {
+  margin-left: 6rem;
+}
+.ml-32 {
+  margin-left: 8rem;
+}
+.ml-48 {
+  margin-left: 12rem;
+}
+.ml-40 {
+  margin-left: 10rem;
+}
+.ml-44 {
+  margin-left: 11rem;
+}
 .flex {
   display: flex;
 }
@@ -497,23 +512,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-16 {
   height: 4rem;
 }
-.h-full {
-  height: 100%;
-}
 .h-screen {
   height: 100vh;
 }
-.max-h-\[100px\] {
-  max-height: 100px;
+.h-full {
+  height: 100%;
 }
 .min-h-screen {
   min-height: 100vh;
-}
-.min-h-\[100px\] {
-  min-height: 100px;
-}
-.min-h-\[200px\] {
-  min-height: 200px;
 }
 .min-h-\[180px\] {
   min-height: 180px;
@@ -527,35 +533,17 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-auto {
   width: auto;
 }
-.w-\[500pc\] {
-  width: 500pc;
-}
-.w-\[500px\] {
-  width: 500px;
-}
 .w-full {
   width: 100%;
 }
-.w-80 {
-  width: 20rem;
-}
-.w-\[90\%\] {
-  width: 90%;
-}
 .min-w-\[240px\] {
   min-width: 240px;
-}
-.min-w-\[240pc\] {
-  min-width: 240pc;
 }
 .max-w-6xl {
   max-width: 72rem;
 }
 .max-w-\[240px\] {
   max-width: 240px;
-}
-.max-w-\[360pc\] {
-  max-width: 360pc;
 }
 .max-w-\[360px\] {
   max-width: 360px;
@@ -575,17 +563,23 @@ Ensure the default browser behavior of the `hidden` attribute.
 .flex-wrap {
   flex-wrap: wrap;
 }
-.place-content-center {
-  place-content: center;
+.place-items-end {
+  place-items: end;
 }
 .place-items-center {
   place-items: center;
 }
-.content-center {
-  align-content: center;
+.content-end {
+  align-content: flex-end;
+}
+.items-end {
+  align-items: flex-end;
 }
 .items-center {
   align-items: center;
+}
+.justify-start {
+  justify-content: flex-start;
 }
 .justify-end {
   justify-content: flex-end;
@@ -593,20 +587,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .justify-center {
   justify-content: center;
 }
-.justify-items-center {
-  justify-items: center;
+.place-self-end {
+  place-self: end;
 }
-.self-end {
-  align-self: flex-end;
-}
-.self-center {
-  align-self: center;
-}
-.justify-self-end {
-  justify-self: end;
-}
-.justify-self-center {
-  justify-self: center;
+.self-start {
+  align-self: flex-start;
 }
 .overflow-hidden {
   overflow: hidden;
@@ -627,10 +612,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-border-opacity: 1;
   border-color: rgb(229 231 235 / var(--tw-border-opacity));
 }
-.border-black {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
-}
 .border-\[\#88d8b0\] {
   --tw-border-opacity: 1;
   border-color: rgb(136 216 176 / var(--tw-border-opacity));
@@ -647,33 +628,29 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
-.bg-yellow-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 249 195 / var(--tw-bg-opacity));
-}
-.bg-red-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
-}
 .bg-\[\#88d8b0\] {
   --tw-bg-opacity: 1;
   background-color: rgb(136 216 176 / var(--tw-bg-opacity));
+}
+.bg-yellow-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 249 195 / var(--tw-bg-opacity));
 }
 .bg-\[\#ffcc5c\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 204 92 / var(--tw-bg-opacity));
 }
-.bg-red-100 {
+.bg-red-200 {
   --tw-bg-opacity: 1;
-  background-color: rgb(254 226 226 / var(--tw-bg-opacity));
+  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
 }
-.bg-\[\#ff6f69\] {
+.bg-\[\#EBEBEB\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 111 105 / var(--tw-bg-opacity));
+  background-color: rgb(235 235 235 / var(--tw-bg-opacity));
 }
-.object-bottom {
-  -o-object-position: bottom;
-     object-position: bottom;
+.bg-\[\#F5F4F4\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 244 244 / var(--tw-bg-opacity));
 }
 .p-6 {
   padding: 1.5rem;
@@ -683,9 +660,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .p-5 {
   padding: 1.25rem;
-}
-.p-1 {
-  padding: 0.25rem;
 }
 .py-4 {
   padding-top: 1rem;
@@ -701,9 +675,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-center {
   text-align: center;
 }
-.align-bottom {
-  vertical-align: bottom;
-}
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -711,9 +682,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-.text-\[25px\] {
-  font-size: 25px;
 }
 .text-\[40px\] {
   font-size: 40px;
@@ -773,37 +741,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
-.shadow-sm {
-  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
 .shadow-md {
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
-.outline-none {
-  outline: 2px solid transparent;
-  outline-offset: 2px;
-}
 .outline-0 {
   outline-width: 0px;
-}
-.hover\:bg-red-600:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
 }
 .hover\:fill-red-600:hover {
   fill: #dc2626;
 }
-.hover\:text-red-600:hover {
-  --tw-text-opacity: 1;
-  color: rgb(220 38 38 / var(--tw-text-opacity));
-}
-.focus-visible\:no-underline:focus-visible {
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none;
+.hover\:fill-purple-600:hover {
+  fill: #9333ea;
 }
 @media (prefers-color-scheme: dark) {
 

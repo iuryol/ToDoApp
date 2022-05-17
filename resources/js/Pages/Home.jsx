@@ -18,11 +18,11 @@ export default (props)=>{
             <div className="flex flex-col justify-center">
 
             <div className="" id="header">
-                    <h1 className="text-center text-[40px] bg-[#ffcc5c] rounded-sm">Minhas notas</h1>
+                    <h1 className="text-center text-[40px] bg-[#ffcc5c] rounded-sm">My Sticky Notes</h1>
             </div>
 
             <div className=" flex flex-row justify-center bottom mt-2" id="buttons">
-                <Link className="bg-red-200 border-red-600 border-2 rounded-md p-2 shadow-md text-red-500" href="/create" method="get" >Criar Nota</Link>
+                <Link className="bg-red-200 border-red-600 border-2 rounded-md p-2 shadow-md text-red-500" href="/create" method="post" >Criar Nota</Link>
             </div>
 
             <div className="mt-2 h-full flex flex-row  flex-wrap justify-center" id="posts">
